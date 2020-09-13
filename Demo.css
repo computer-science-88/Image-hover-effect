@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+.container:hover img{
+    transform: scale(1.6)rotate(-25deg);
+}
